@@ -5,7 +5,7 @@ let datacategotyList = [
         "name": "Thời trang nam",
     },
     {
-        "id": 2,
+        "id": 1,
         "img": "./img/category/fashion.png",
         "name": "Thời trang nam",
     },
