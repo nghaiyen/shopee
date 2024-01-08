@@ -4,7 +4,7 @@ let dataFlashSale = [
         "img": "./img/flashsale/product-1.jpg",
         "price": "đ1.890.000",
         "sale-off": "51%",
-        "sold": "Đã bán 12",
+        "sold": "Đã bán 122",
     },
 ];
 const listFlashsale = document.querySelector(".flashsale__product")
