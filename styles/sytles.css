@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+  background-color: #f5f5f5;
+  position: static !important;
+}
+.wrapper .container {
+  width: 90%;
+  padding: 0px;
+}
+.wrapper .container .title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.54);
+}/*# sourceMappingURL=sytles.css.map */
