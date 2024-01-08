@@ -2,4 +2,25 @@
   background-color: #ffffff;
   margin: auto;
   margin-top: 2%;
+}
+.flashsale .flashsale__top {
+  padding: 1% 2%;
+}
+.flashsale .flashsale__top .flashsale__top-left {
+  gap: 10px;
+}
+.flashsale .flashsale__top .flashsale__top-left img {
+  width: 20%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.flashsale .flashsale__top-right a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #ee4d2d;
+}
+
+#demo {
+  margin: 0;
 }/*# sourceMappingURL=flashsale.css.map */

@@ -2,5 +2,26 @@
     background-color: #ffffff;
     margin: auto;
     margin-top: 2%;
-
+    .flashsale__top{
+        padding: 1% 2%;
+        .flashsale__top-left{
+            gap: 10px;
+            img{
+                width: 20%;
+                height: auto;
+                object-fit: contain;
+                    }
+        }
+        
+    }
+    .flashsale__top-right{
+        a{
+            text-decoration: none;
+            font-size: 0.7rem;
+            color: #ee4d2d;
+        }
+    }
+}
+#demo{
+    margin: 0;
 }
