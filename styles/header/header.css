@@ -19,7 +19,7 @@
 .menu .menu__content {
   width: 90%;
   margin: auto;
-  max-width: 1280px;
+  max-width: 1320px;
 }
 .menu .menu__content .menu__top {
   padding-top: 20px;
@@ -94,8 +94,13 @@
 }
 
 .banner {
-  padding: 2% 0%;
   background-color: #ffffff;
+  background-color: #ffffff;
+}
+.banner .banner__content {
+  width: 90%;
+  margin: auto;
+  max-width: 1320px;
 }
 .banner a {
   text-decoration: none;
@@ -103,7 +108,6 @@
 }
 .banner .banner__top {
   margin: auto;
-  width: 90%;
   gap: 10px;
 }
 .banner .banner__top img {
@@ -120,7 +124,6 @@
   gap: 10px;
 }
 .banner .banner__bottom {
-  width: 90%;
   margin: auto;
 }
 .banner .banner__bottom .banner__bottom-list {

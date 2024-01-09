@@ -45,7 +45,7 @@ const renderBrandItem = (params) =>{
     listBrand.innerHTML = params 
     .map((item) => {
         return `
-        <li class="header__bt-right-item">
+        <li class="header__bt-right-item d-flex flex-column">
                         <a href="#" class="w-100 d-flex flex-column align-items-center">
                             <img src="${item.img}" alt="">
                             <span>${item.describe}</span>
@@ -104,7 +104,7 @@ const renderBrandSecondItem = (params) =>{
     listBrandSliderSecond.innerHTML = params 
     .map((item) => {
         return `
-        <li class="header__bt-right-item">
+        <li class="header__bt-right-item d-flex flex-column">
                         <a href="#" class="w-100 d-flex flex-column align-items-center">
                             <img src="${item.img}" alt="">
                             <span>${item.describe}</span>
@@ -163,7 +163,7 @@ const renderBrandThirdItem = (params) =>{
     listBrandSliderThird.innerHTML = params 
     .map((item) => {
         return `
-        <li class="header__bt-right-item">
+        <li class="header__bt-right-item d-flex flex-column">
                         <a href="#" class="w-100 d-flex flex-column align-items-center">
                             <img src="${item.img}" alt="">
                             <span>${item.describe}</span>

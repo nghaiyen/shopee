@@ -58,6 +58,7 @@
             .header__bt-right-item {
                 width: calc(25% - 10px);
                 margin: auto;
+                gap:0.5rem;
                 a {
                     width: 100%;
                     text-decoration: none;
@@ -68,6 +69,7 @@
                         position: relative;
                     }
                     span {
+                        font-size: 1.1rem;
                         color: #111;
                         text-align: center;
                         position: absolute;

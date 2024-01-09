@@ -1,18 +1,61 @@
-.searchtop{
+.searchtop {
     background-color: #ffffff;
     margin: auto;
     margin-top: 2%;
-    a{
+    a {
         text-decoration: none;
         text-transform: capitalize;
         color: #ee4d2d;
     }
-    .searchtop-top{
+    .searchtop-top {
         color: #ee4d2d;
         padding: 1rem;
-        font-size: 0.9rem;
-        span{
+        font-size: 0.8rem;
+        span {
             text-transform: uppercase;
+            font-size: 1rem;
+        }
+    }
+    .searchtop__bottom {
+        .searchtop__list {
+            list-style: none;
+            margin: 1%;
+            padding: 0px;
+            .searchtop__item {
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                    gap: 0.5rem;
+                    margin: 0px 5px;
+                    .searchtop__item-img {
+                        position: relative;
+                        .top {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: 10;
+                        }
+                        img {
+                            object-fit: contain;
+                        }
+                        .seaechtop__img-product {
+                            position: relative;
+                        }
+                        span {
+                            color: #fff;
+                            font-size: 1rem;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            text-align: center;
+                            background-color: rgb(134, 130, 130);
+                        }
+                    }
+                    .searchtop__name{
+                        color: #111;
+                    }
+                }
+            }
         }
     }
 }
