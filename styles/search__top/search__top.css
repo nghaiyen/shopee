@@ -1,0 +1,18 @@
+.searchtop {
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 2%;
+}
+.searchtop a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ee4d2d;
+}
+.searchtop .searchtop-top {
+  color: #ee4d2d;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.searchtop .searchtop-top span {
+  text-transform: uppercase;
+}/*# sourceMappingURL=search__top.css.map */

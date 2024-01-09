@@ -1,0 +1,18 @@
+.searchtop{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2%;
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #ee4d2d;
+    }
+    .searchtop-top{
+        color: #ee4d2d;
+        padding: 1rem;
+        font-size: 0.9rem;
+        span{
+            text-transform: uppercase;
+        }
+    }
+}

@@ -20,7 +20,7 @@
   font-size: 0.7rem;
   color: #ee4d2d;
 }
-.flashsale .flashsale__bottom .flashsale__product {
+.flashsale .flashsale__bottom .flashsale__product, .flashsale .flashsale__bottom .flashsale__product-2, .flashsale .flashsale__bottom .flashsale__product-3 {
   width: 96%;
   margin: auto;
   list-style: none;
@@ -28,20 +28,20 @@
   gap: 20px;
   padding-bottom: 1%;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item {
-  width: calc(100% - 5px);
+.flashsale .flashsale__bottom .product__item {
+  width: 100%;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a {
-  gap: 5px;
+.flashsale .flashsale__bottom .product__item a {
+  gap: 0.4rem;
   position: relative;
   text-decoration: none;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a img {
+.flashsale .flashsale__bottom .product__item a img {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .product__img img {
+.flashsale .flashsale__bottom .product__item a .product__img img {
   position: absolute;
   top: 0;
   left: 0;
@@ -50,37 +50,37 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .product__img .i-product {
+.flashsale .flashsale__bottom .product__item a .product__img .i-product {
   position: relative;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .product__img .mall {
+.flashsale .flashsale__bottom .product__item a .product__img .mall {
   position: absolute;
   top: 0px;
   z-index: 100;
   justify-content: space-between;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .product__img .mall > span {
+.flashsale .flashsale__bottom .product__item a .product__img .mall > span {
   background-color: rgb(208, 1, 27);
   color: #ffffff;
   font-size: 0.7rem;
   font-weight: 400;
-  padding: 3px;
-  border-radius: 0px 2px 2px 0px;
-  -webkit-border-radius: 0px 2px 2px 0px;
-  -moz-border-radius: 0px 2px 2px 0px;
-  -ms-border-radius: 0px 2px 2px 0px;
-  -o-border-radius: 0px 2px 2px 0px;
+  padding: 2px;
+  border-radius: 0px 3px 3px 0px;
+  -webkit-border-radius: 0px 3px 3px 0px;
+  -moz-border-radius: 0px 3px 3px 0px;
+  -ms-border-radius: 0px 3px 3px 0px;
+  -o-border-radius: 0px 3px 3px 0px;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .product__img .mall .sale {
+.flashsale .flashsale__bottom .product__item a .product__img .mall .sale {
   background-color: #ffe97a;
   color: #f35830;
   font-size: 0.7rem;
   font-weight: 500;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .price {
+.flashsale .flashsale__bottom .product__item a .price {
   margin: 1%;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .sold {
+.flashsale .flashsale__bottom .product__item a .sold {
   width: 90%;
   height: 1.2rem;
   background-color: #ffbda6;
@@ -88,10 +88,10 @@
   position: relative;
   z-index: 1;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .sold .sold___shape {
+.flashsale .flashsale__bottom .product__item a .sold .sold___shape {
   z-index: 2;
 }
-.flashsale .flashsale__bottom .flashsale__product .product__item a .sold span {
+.flashsale .flashsale__bottom .product__item a .sold span {
   position: absolute;
   top: 0;
   left: 0;

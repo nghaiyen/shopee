@@ -1,0 +1,87 @@
+.header__seletion {
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2%;
+    .header__seletion-top {
+        padding: 1rem;
+        .header__seletion-top-left {
+            gap: 1rem;
+        }
+        .seletion-item {
+            text-decoration: none;
+            color: black;
+            // padding: 0.5rem;
+            gap: 4px;
+            text-transform: capitalize;
+
+            img {
+                object-fit: contain;
+                width: 1.7rem;
+                height: 1.7rem;
+            }
+            .view-all {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1.4rem;
+                height: 1.4rem;
+                background-color: #d0011b;
+                margin-left: 0.3rem;
+                border-radius: 50%;
+                svg {
+                    width: 60%;
+                    height: 60%;
+                    fill: #fff;
+                }
+            }
+        }
+        .header__seletion-right {
+            .seletion-item {
+                font-size: 0.8rem;
+                color: #d0011b;
+            }
+        }
+    }
+    .header__seletion-bottom {
+        margin: 0% 1% 1% 1%;
+        .header__selection-bottom-left {
+            width: 32%;
+        }
+        .header__seletion-bottom-right {
+            width: 68%;
+            .header__bt-right-slider, .header__bt-right-slidersecond, .header__bt-right-sliderthird {
+                padding: 0px;
+                list-style: none;
+                flex-wrap: wrap;
+                gap:8px;
+            }
+            .header__bt-right-item {
+                width: calc(25% - 10px);
+                margin: auto;
+                a {
+                    width: 100%;
+                    text-decoration: none;
+                    position: relative;
+                    img {
+                        width: 90%;
+                        object-fit: contain;
+                        position: relative;
+                    }
+                    span {
+                        color: #111;
+                        text-align: center;
+                        position: absolute;
+                        bottom: 0;
+                        z-index: 3;
+                        color: #d0011b;
+                        overflow: hidden;
+                        -webkit-line-clamp: 2;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+            }
+        }
+    }
+}
