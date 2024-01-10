@@ -1,0 +1,94 @@
+.suggesttoday {
+    margin: auto;
+    margin-top: 2%;
+    .suggesttoday__title {
+        background-color: #ffffff;
+        position: sticky;
+        z-index: 1000;
+        span {
+            font-size: 1rem;
+            text-transform: uppercase;
+            margin: 1% 0%;
+            position: sticky;
+            color: #ee4d2d;
+        }
+        .line-tab {
+            height: 3px;
+            background-color: #ee4d2d;
+        }
+    }
+    .suggesttoday__list {
+        list-style: none;
+        margin: 2% 0%;
+        padding: 0px;
+        flex-wrap: wrap;
+        .suggesttoday__item {
+            a {
+                background-color: #ffffff;
+                margin: 0 8px 12px;
+                text-decoration: none;
+                position: static;
+                gap: 0.4rem;
+                .suggesttoday__img {
+                    position: relative;
+                    .mall {
+                        position: absolute;
+                        top: 0px;
+                        z-index: 100;
+                        justify-content: space-between;
+                        > span {
+                            background-color: rgb(208, 1, 27);
+                            color: #ffffff;
+                            font-size: 0.7rem;
+                            font-weight: 400;
+                            padding: 2px;
+                            border-radius: 0px 3px 3px 0px;
+                            -webkit-border-radius: 0px 3px 3px 0px;
+                            -moz-border-radius: 0px 3px 3px 0px;
+                            -ms-border-radius: 0px 3px 3px 0px;
+                            -o-border-radius: 0px 3px 3px 0px;
+                        }
+                    }
+                    .suggesttoday__product {
+                        width: 80%;
+                        object-fit: contain;
+                    }
+                    .suggesttoday__xtra {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 1;
+                        width: 80%;
+                        object-fit: contain;
+                    }
+                    .sale {
+                        background-color: #ffe97a;
+                        color: #f35830;
+                        font-size: 0.7rem;
+                        font-weight: 500;
+                    }
+                }
+                .suggesttoday__nameproduct {
+                    margin: 0.5rem;
+                    position: relative;
+                    z-index: 3;
+                    gap:0.4rem;
+                    .suggesttoday__name {
+                        font-size: 0.9rem;
+                        color:#555;
+                    }
+                    .price{
+                        color: #f35830;
+                    }
+                    .sales{
+                        color: rgba(0,0,0,.54118);
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+        a:hover{
+            border: 1px solid #f35830;
+        }
+    }
+}

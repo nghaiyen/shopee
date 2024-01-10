@@ -46,7 +46,7 @@ let datacategotyList = [
     },
     {
         "id": 10,
-        "img": "./img/category/bike.png",
+        "img": "./img/category/moto.png",
         "name": "oto xe máy và xe đạp",
     },
     {

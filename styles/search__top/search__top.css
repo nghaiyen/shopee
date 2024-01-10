@@ -51,8 +51,8 @@
   bottom: 0;
   left: 0;
   text-align: center;
-  background-color: rgb(134, 130, 130);
+  background-color: rgba(0, 0, 0, 0.26);
 }
 .searchtop .searchtop__bottom .searchtop__list .searchtop__item a .searchtop__name {
-  color: #111;
+  color: #555;
 }/*# sourceMappingURL=search__top.css.map */

@@ -53,15 +53,9 @@
   padding: 0px;
   list-style: none;
   flex-wrap: wrap;
-  gap: 8px;
-}
-.header__seletion .header__seletion-bottom .header__seletion-bottom-right .header__bt-right-item {
-  width: calc(25% - 10px);
-  margin: auto;
-  gap: 0.5rem;
 }
 .header__seletion .header__seletion-bottom .header__seletion-bottom-right .header__bt-right-item a {
-  width: 100%;
+  margin: 0 5px 10px;
   text-decoration: none;
   position: relative;
 }

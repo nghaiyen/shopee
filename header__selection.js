@@ -45,8 +45,8 @@ const renderBrandItem = (params) =>{
     listBrand.innerHTML = params 
     .map((item) => {
         return `
-        <li class="header__bt-right-item d-flex flex-column">
-                        <a href="#" class="w-100 d-flex flex-column align-items-center">
+        <li class="header__bt-right-item d-flex flex-column col-3">
+                        <a href="#" class="d-flex flex-column align-items-center">
                             <img src="${item.img}" alt="">
                             <span>${item.describe}</span>
                         </a>
@@ -104,8 +104,8 @@ const renderBrandSecondItem = (params) =>{
     listBrandSliderSecond.innerHTML = params 
     .map((item) => {
         return `
-        <li class="header__bt-right-item d-flex flex-column">
-                        <a href="#" class="w-100 d-flex flex-column align-items-center">
+        <li class="header__bt-right-item d-flex flex-column col-3">
+                        <a href="#" class="d-flex flex-column align-items-center">
                             <img src="${item.img}" alt="">
                             <span>${item.describe}</span>
                         </a>
@@ -163,8 +163,8 @@ const renderBrandThirdItem = (params) =>{
     listBrandSliderThird.innerHTML = params 
     .map((item) => {
         return `
-        <li class="header__bt-right-item d-flex flex-column">
-                        <a href="#" class="w-100 d-flex flex-column align-items-center">
+        <li class="header__bt-right-item d-flex flex-column col-3">
+                        <a href="#" class="d-flex flex-column align-items-center">
                             <img src="${item.img}" alt="">
                             <span>${item.describe}</span>
                         </a>

@@ -111,6 +111,7 @@
 }
 
 .banner__sale {
+  flex-grow: 1;
   margin: 2% 0%;
 }
 .banner__sale img {
