@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+    .deal{
+        display: none;
+    }
+    .search{
+        height: 100%
+        
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo{
+        display: none !important; 
+    }
+    .menu__top{
+        display: none !important;
+    }
+    .user{
+    display: block !important;
+    }
+    .cart, .user {
+        width: 7% !important;
+    }
+  }

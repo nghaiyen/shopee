@@ -15,6 +15,10 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
+.flashsale .flashsale__top .flashsale__top-left .coundown-time {
+  background-color: black !important;
+  color: #ffffff;
+}
 .flashsale .flashsale__top .flashsale__top-right a {
   text-decoration: none;
   font-size: 0.7rem;
@@ -25,16 +29,13 @@
   margin: auto;
   list-style: none;
   padding: 0px;
-  gap: 20px;
   padding-bottom: 1%;
-}
-.flashsale .flashsale__bottom .product__item {
-  width: 100%;
 }
 .flashsale .flashsale__bottom .product__item a {
   gap: 0.4rem;
   position: relative;
   text-decoration: none;
+  margin: 5px;
 }
 .flashsale .flashsale__bottom .product__item a img {
   width: 100%;

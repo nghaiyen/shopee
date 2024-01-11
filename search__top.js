@@ -41,7 +41,7 @@ const rendersearchItem = (params) => {
     listSearchTop.innerHTML = params
     .map((item) => {
         return `
-        <li class="searchtop__item col-2">
+        <li class="searchtop__item col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
                         <a class="d-flex flex-column justify-content-center">
                         <div class="searchtop__item-img">
                             <img class="top w-25 h-25" src="./img/searchtop/top.png" alt="">

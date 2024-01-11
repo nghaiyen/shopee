@@ -47,8 +47,8 @@ const renderFlashsaleItem = (params) => {
     listFlashsale.innerHTML = params
         .map((item) => {
             return `
-        <li class="product__item">
-                        <a href="#" class="d-flex flex-column justify-content-center align-items-center w-100">
+        <li class="product__item col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center">
                             <div class="product__img w-100">
                                 <div class="mall w-100 d-flex align-items-center">
                                     <span class="d-flex">Mall</span>
@@ -124,8 +124,8 @@ const renderFlashsaleItemSecord = (params) => {
     listFlashsaleSlitder.innerHTML = params
         .map((item) => {
             return `
-        <li class="product__item">
-                        <a href="#" class="d-flex flex-column justify-content-center align-items-center w-100">
+        <li class="product__item col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center">
                             <div class="product__img w-100">
                                 <div class="mall w-100 d-flex align-items-center">
                                     <span class="d-flex">Mall</span>
@@ -200,8 +200,8 @@ const renderFlashsaleItemThird = (params) => {
     listFlashsaleSlitderThird.innerHTML = params
         .map((item) => {
             return `
-        <li class="product__item">
-                        <a href="#" class="d-flex flex-column justify-content-center align-items-center w-100">
+        <li class="product__item col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2 ">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center">
                             <div class="product__img w-100">
                                 <div class="mall w-100 d-flex align-items-center">
                                     <span class="d-flex">Mall</span>

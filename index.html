@@ -25,14 +25,15 @@
     <link rel="stylesheet" href="./styles/header__selection/header__selection.css">
     <link rel="stylesheet" href="./styles/search__top/search__top.css">
     <link rel="stylesheet" href="./styles/suggest__today/suggesttoday.css">
+    <link rel="stylesheet" href="./styles/responsive/reponsive.css">
 </head>
 <div class="wrapper">
     <!-- menu -->
     <div class="menu w-100">
         <div class="menu__content h-auto">
-            <div class="menu__top d-flex w-100 justify-content-between">
-                <div class="menu__top-left d-flex w-50">
-                    <ul class="menu__top-content d-flex w-100 h-auto justify-content-start align-items-center">
+            <div class="menu__top d-flex w-100 justify-content-between d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
+                <div class="menu__top-left d-flex w-50 d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
+                    <ul class="menu__top-content d-flex w-100 h-auto justify-content-start align-items-center d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
                         <li class="menu__top-item d-flex align-items-center justify-content-center"><a href="#">Kênh
                                 Người Bán</a></li>
                         <li class="menu__top-item d-flex align-items-center justify-content-center"><a href="#">Trở
@@ -52,8 +53,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="menu__top-right d-flex w-50">
-                    <ul class="menu__top-content d-flex w-100 h-auto justify-content-end align-items-center">
+                <div class="menu__top-right d-flex w-50 d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
+                    <ul class="menu__top-content d-flex w-100 h-auto justify-content-end align-items-center d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
                         <li class="menu__top-item d-flex justify-content-center align-items-center">
                             <svg height="16" viewBox="0 0 16 16" width="16" style="fill: #fff;"
                                 class="shopee-svg-icon icon-notification-2">
@@ -105,7 +106,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="menu__bottom w-100 h-auto d-flex justify-content-between">
+            <div class="menu__bottom w-100 h-auto d-flex justify-content-between d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
                 <div class="logo h-auto">
                     <svg viewBox="0 0 192 65" style="fill: #fff;"
                         class="shopee-svg-icon header-with-search__shopee-logo icon-shopee-logo w-75">
@@ -116,8 +117,8 @@
                         </g>
                     </svg>
                 </div>
-                <div class="menu__bottom-center d-flex flex-column w-100">
-                    <div class="search h-50">
+                <div class="menu__bottom-center d-flex flex-column w-100 d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
+                    <div class="search d-flex">
                         <input class="" type="text" placeholder="   Shopee bao ship 0Đ - Đăng ký ngay!">
                         <button><svg height="19" viewBox="0 0 19 19" width="19" class="shopee-svg-icon"
                                 style="fill: #fff;">
@@ -153,13 +154,16 @@
                 <div class="cart d-flex align-items-center">
                     <i class="fa-solid fa-cart-shopping w-100"></i>
                 </div>
+                <div class="user">
+                    <svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="LEoRZO"><path d="M10.8166 17.0039531c-1.5729-1.03425-2.6166-2.8161-2.6166-4.82895v-2.1c0-3.17625 2.5977-5.775 5.775-5.775 3.17625 0 5.775 2.59875 5.775 5.775v2.1c0 2.016-1.04685 3.801-2.625 4.8342v-.0042l6.18975 2.667c.3864.1659.63525.546.63525.9639v2.5641c0 .5775-.4725 1.05-1.05 1.05H5.05c-.5775 0-1.05-.4725-1.05-1.05v-2.5641c0-.4179.24885-.798.6342-.9639l6.1908-2.667-.0084-.00105z" stroke="#FFF" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linejoin="round"></path></svg>
+                </div>
             </div>
         </div>
     </div>
     <!-- banner -->
     <div class="banner w-100">
         <div class="banner__content h-auto">
-            <div class="banner__top h-auto d-flex justify-content-between">
+            <div class="banner__top h-auto d-flex justify-content-between d-md-flex d-lg-flex d-xl-flex d-xxl-flex">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -276,11 +280,12 @@
             <div class="flashsale__top d-flex justify-content-between">
                 <div class="flashsale__top-left w-50 d-flex">
                     <img src="./img/flashsale/flashsale.png" alt="">
-                    <!-- Display the countdown timer in an element -->
+                    <div class="coundown-time">
+                        <!-- Display the countdown timer in an element -->
                     <p id="demo"></p>
                     <script>
                         // Set the date we're counting down to
-                        var countDownDate = new Date("Jan 9, 2024 15:37:25").getTime();
+                        var countDownDate = new Date("Jan 16, 2024 15:37:25").getTime();
 
                         // Update the count down every 1 second
                         var x = setInterval(function () {
@@ -308,12 +313,13 @@
                             }
                         }, 1000);
                     </script>
+                    </div>
                 </div>
                 <div class="flashsale__top-right">
                     <a href="#"> Xem tất cả ></a>
                 </div>
             </div>
-            <div class="flashsale__bottom">
+            <div class="flashsale__bottom ">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
@@ -380,61 +386,56 @@
             </div>
             <div class="header__seletion-bottom w-100 d-flex">
                 <div class="header__selection-bottom-left">
-                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
-                        data-bs-interval="false">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="#"><img src="./img/header-selection/slider.jpg" class="d-block w-100"
-                                        alt="..."></a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#"><img src="./img/header-selection/slider2.jpg" class="d-block w-100"
-                                        alt="..."></a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#"><img src="./img/header-selection/slider3.jpg" class="d-block w-100"
-                                        alt="..."></a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button"
-                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
-                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="header__seletion-bottom-right">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <ul class="header__bt-right-slider w-100 d-flex">
-                                </ul>
-                            </div>
-                            <div class="carousel-item">
-                                <ul class="header__bt-right-slidersecond w-100 d-flex">
-                                </ul>
-                            </div>
-                            <div class="carousel-item">
-                                <ul class="header__bt-right-sliderthird w-100 d-flex">
-                                </ul>
-                            </div>
+                          <div class="carousel-item active">
+                            <a href="#"><img src="./img/header-selection/slider.jpg" class="d-block w-100"
+                                alt="..."></a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="#"><img src="./img/header-selection/slider2.jpg" class="d-block w-100"
+                                alt="..."></a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="#"><img src="./img/header-selection/slider3.jpg" class="d-block w-100"
+                                alt="..."></a>
+                          </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
                         </button>
-                    </div>
+                      </div>
+                </div>
+                <div class="header__seletion-bottom-right">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <ul class="header__bt-right-slider w-100 d-flex">
+                            </ul>
+                          </div>
+                          <div class="carousel-item">
+                            <ul class="header__bt-right-slidersecond w-100 d-flex">
+                            </ul>
+                          </div>
+                          <div class="carousel-item">
+                            <ul class="header__bt-right-sliderthird w-100 d-flex">
+                            </ul>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                 </div>
             </div>
         </div>
@@ -461,26 +462,7 @@
             </div>
         </div>
         <!--  -->
-        <!-- <img src="./img/category/phone.png" alt="">
-        <img src="./img/category/laptop.png" alt="">
-        <img src="./img/category/am.png" alt="">
-        <img src="./img/category/bachhoa.png" alt="">
-        <img src="./img/category/laptop.png" alt="">
-        <img src="./img/category/cammera.png" alt="">
-        <img src="./img/category/ball.png" alt="">
-        <img src="./img/category/beauty.png" alt="">
-        <img src="./img/category/bookstoreonl.png" alt="">
-        <img src="./img/category/bsg.png" alt="">
-        <img src="./img/category/cooking.png" alt="">
-        <img src="./img/category/fashion-woman.png" alt="">
-        <img src="./img/category/ghe.png" alt="">
-        <img src="./img/category/health.png" alt="">
-        <img src="./img/category/homecare.png" alt="">
-        <img src="./img/category/jewelry.png" alt="">
-        <img src="./img/category/moto.png" alt="">
-        <img src="./img/category/fashion-woman.png" alt="">
-        <img src="./img/category/tech.png" alt=""> -->
-        <!--  -->
+
     </div>
 </div>
 
