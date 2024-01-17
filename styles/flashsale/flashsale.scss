@@ -123,3 +123,25 @@
         object-fit: contain;
     }
 }
+.slick-prev{
+    display: none !important;
+}
+.slick-next{
+    position: absolute;
+    top: 40%;
+    right:-10px;
+    background-color: #fff;
+    border: none;
+    color: #555;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 3px 7px;
+    z-index: 2;
+}
+.slick-next:hover{
+    padding: 5px 10px;
+    transform: scale(1.1);
+}

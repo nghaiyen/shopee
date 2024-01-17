@@ -105,15 +105,41 @@ const categotyList = document.querySelector(".category__list");
 const rendercategotyListItem = (params) => {
     categotyList.innerHTML = params
         .map((item) => {
-            return `<li class="category__list-item">
-        <a href="#" class="d-flex flex-column justify-content-center align-items-center">
-            <img src="${item.img}" alt="${item.name}">
-            <span>${item.name}</span>
-        </a>
-    <li>
+            return `
+            <li class="category__list-item d-flex flex-column">
+            <a href="#" class="d-flex flex-column justify-content-center align-items-center">
+                <img src="${item.img}" alt="${item.name}">
+                <span>${item.name}</span>
+            </a>
+        </li>
     `;
         })
         .join("");
 };
 rendercategotyListItem(datacategotyList);
 
+$('.category__list').slick({
+    infinite: true,
+    slidesToShow: 10,
+    slidesToScroll: 10,
+    prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+    nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 6,
+              slidesToScroll: 6,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+            }
+        },
+    ]
+        
+}
+);

@@ -20,7 +20,6 @@
         padding: 2% 0% 1% 0%;
         width: 90%;
         margin: auto;
-        max-width: 1320px;
         .menu__top {
             // background-color: #ee4d2d;
             // .menu__sub::before {
@@ -102,6 +101,9 @@
         }
         .cart {
             width: 10%;
+            svg{
+                width: 50%;
+            }
             i {
                 font-size: 2rem;
             }
@@ -117,7 +119,6 @@
     .banner__content {
         width: 90%;
         margin: auto;
-        max-width: 1320px;
     }
     a {
         text-decoration: none;

@@ -2,10 +2,20 @@
   margin: auto;
   margin-top: 2%;
 }
+.suggesttoday .line-tab {
+  height: 3px;
+  background-color: #ee4d2d;
+}
+.suggesttoday button {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 0px;
+  color: #555;
+}
 .suggesttoday .suggesttoday__title {
   background-color: #ffffff;
   position: sticky;
-  z-index: 1000;
+  top: 0;
+  z-index: 10000;
 }
 .suggesttoday .suggesttoday__title span {
   font-size: 1rem;
@@ -14,10 +24,6 @@
   position: sticky;
   color: #ee4d2d;
 }
-.suggesttoday .suggesttoday__title .line-tab {
-  height: 3px;
-  background-color: #ee4d2d;
-}
 .suggesttoday .suggesttoday__list {
   list-style: none;
   margin: 2% 0%;
@@ -25,6 +31,7 @@
   flex-wrap: wrap;
 }
 .suggesttoday .suggesttoday__list .suggesttoday__item a {
+  border: 1px solid rgb(229, 231, 235);
   background-color: #ffffff;
   margin: 0 8px 12px;
   text-decoration: none;
@@ -92,4 +99,5 @@
 }
 .suggesttoday .suggesttoday__list a:hover {
   border: 1px solid #f35830;
+  transition: background-color 0.3s ease;
 }/*# sourceMappingURL=suggesttoday.css.map */

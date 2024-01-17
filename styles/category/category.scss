@@ -1,55 +1,60 @@
-.category{
-    h3{
+.category {
+    h3 {
         padding: 2% 2%;
         margin: 0px;
     }
     background-color: #ffffff;
     margin: auto;
     margin-top: 2%;
-    .category__content{
-        .category__list{
+    .category__content {
+        .category__list {
+            width: 100%;
+            display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10%, 2fr));
             list-style: none;
             padding: 0px;
             flex-wrap: wrap;
-            .category__list-item{
-
-                    width: 10%;
-                    a{
-                        
-                        text-decoration: none;
-                        color: black;
-                    }
-                    img{
-                        width: 80%;
-                    }
-    
-                // width: 100%;
-                border: 1px solid rgba(0,0,0,.05);
-                padding: 2% 0%;
-                a{
+            margin: 0px;
+            
+            .category__list-item {
+                border: 1px solid rgba(0, 0, 0, 0.05);
+                border-bottom:none !important;
+                height: 100%;
+                a {
                     text-decoration: none;
-                    gap:10px;
-                    img{
+                    color: black;
+                }
+                img {
+                    width: 80%;
+                }
+
+                // width: 100%;
+               
+                // padding: 2% 0%;
+                a {
+                    text-decoration: none;
+                    gap: 10px;
+                    img {
                         width: 80%;
                         height: 80%;
                         object-fit: cover;
                     }
                 }
             }
-                    span{
-                        width: 80%;
-                        font-size: 0.8rem;
-                        color: rgba(0,0,0,.87);
-                        font-weight: 400;
-                        text-align: center;
-                        overflow: hidden;
-    -webkit-line-clamp: 2;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    text-transform: capitalize;
-                    }
-                }
+            span {
+                width: 80%;
+                height: 3.125rem ;
+                font-size: 0.8rem;
+                color: rgba(0, 0, 0, 0.87);
+                font-weight: 400;
+                text-align: center;
+                overflow: hidden;
+                -webkit-line-clamp: 2;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                text-transform: capitalize;
             }
         }
-    
+    }
+}

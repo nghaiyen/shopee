@@ -7,6 +7,9 @@
   }
 }
 @media (max-width: 768px) {
+  * {
+    font-size: 0.6rem;
+  }
   .logo {
     display: none !important;
   }
@@ -18,5 +21,8 @@
   }
   .cart, .user {
     width: 7% !important;
+  }
+  .contentinfo, .footer, .footer__bottom {
+    display: none !important;
   }
 }/*# sourceMappingURL=reponsive.css.map */

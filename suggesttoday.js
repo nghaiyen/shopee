@@ -133,7 +133,7 @@ const renderSuggestTodayItem = (params) => {
     listSuggestToday.innerHTML = params 
     .map((item) => {
         return`
-        <li class="suggesttoday__item h-auto col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+        <li class="suggesttoday__item h-auto col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
                         <a href="#" class="d-flex flex-column">
                             <div class="suggesttoday__img d-flex flex-column h-auto">
                                 <div class="mall w-100 d-flex align-items-center">
