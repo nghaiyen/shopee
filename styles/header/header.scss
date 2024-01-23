@@ -142,6 +142,9 @@
         }
     }
     .banner__bottom {
+        .slick-next{
+            display: none !important;
+        }
         margin: auto;
         .banner__bottom-list {
             gap: 10px;

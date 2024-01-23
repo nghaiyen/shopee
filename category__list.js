@@ -99,6 +99,26 @@ let datacategotyList = [
         "img": "./img/category/fashion.png",
         "name": "Thời trang nam",
     },
+    {
+        "id": 20,
+        "img": "./img/category/fashion.png",
+        "name": "Thời trang nam",
+    },
+    {
+        "id": 20,
+        "img": "./img/category/fashion.png",
+        "name": "Thời trang nam",
+    },
+    {
+        "id": 20,
+        "img": "./img/category/fashion.png",
+        "name": "Thời trang nam",
+    },
+    {
+        "id": 20,
+        "img": "./img/category/fashion.png",
+        "name": "Thời trang nam",
+    },
 ];
 
 const categotyList = document.querySelector(".category__list");
@@ -119,8 +139,10 @@ const rendercategotyListItem = (params) => {
 rendercategotyListItem(datacategotyList);
 
 $('.category__list').slick({
+    arrows: true,
     infinite: true,
     slidesToShow: 10,
+    rows: 2,
     slidesToScroll: 10,
     prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
     nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
@@ -128,18 +150,18 @@ $('.category__list').slick({
         {
             breakpoint: 992,
             settings: {
-              slidesToShow: 6,
-              slidesToScroll: 6,
+                slidesToShow: 6,
+                slidesToScroll: 6,
             }
         },
         {
             breakpoint: 768,
             settings: {
-              slidesToShow: 4,
-              slidesToScroll: 4,
+                slidesToShow: 4,
+                slidesToScroll: 4,
             }
         },
     ]
-        
+
 }
 );

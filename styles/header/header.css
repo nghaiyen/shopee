@@ -130,6 +130,9 @@
 .banner .banner__bottom {
   margin: auto;
 }
+.banner .banner__bottom .slick-next {
+  display: none !important;
+}
 .banner .banner__bottom .banner__bottom-list {
   gap: 10px;
   padding: 0px;

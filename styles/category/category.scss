@@ -10,15 +10,15 @@
         .category__list {
             width: 100%;
             display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10%, 2fr));
+            grid-template-columns: repeat(auto-fill, minmax(10%, 2fr));
             list-style: none;
             padding: 0px;
             flex-wrap: wrap;
             margin: 0px;
-            
+
             .category__list-item {
                 border: 1px solid rgba(0, 0, 0, 0.05);
-                border-bottom:none !important;
+                border-bottom: none !important;
                 height: 100%;
                 a {
                     text-decoration: none;
@@ -27,10 +27,6 @@
                 img {
                     width: 80%;
                 }
-
-                // width: 100%;
-               
-                // padding: 2% 0%;
                 a {
                     text-decoration: none;
                     gap: 10px;
@@ -43,7 +39,7 @@
             }
             span {
                 width: 80%;
-                height: 3.125rem ;
+                height: 3.125rem;
                 font-size: 0.8rem;
                 color: rgba(0, 0, 0, 0.87);
                 font-weight: 400;
