@@ -168,8 +168,8 @@ $('.header__bt-right-slider').slick({
         {
             breakpoint: 992,
             settings: {
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow:3,
+                slidesToScroll: 3,
                 rows: 1,
             }
         },
@@ -177,8 +177,8 @@ $('.header__bt-right-slider').slick({
             breakpoint: 768,
             settings: {
                 rows: 1,
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 2,
+                slidesToScroll: 2,
             }
         },
     ]
