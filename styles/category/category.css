@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .category {
   background-color: #ffffff;
   margin: auto;
@@ -51,4 +52,56 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   text-transform: capitalize;
+}
+
+/* CSS cho slider */
+.category__list {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* CSS cho mỗi item trong slider */
+.category__list-item {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* CSS cho ảnh trong mỗi item */
+.category__list-item img {
+  width: 100%;
+  height: auto;
+  max-height: 100px; /* Điều chỉnh chiều cao tối đa của ảnh */
+  -o-object-fit: cover;
+     object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+
+/* CSS cho mô tả trong mỗi item */
+.category__list-item span {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Định dạng số cột và hàng cho slider */
+.slick-slide {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Chia mỗi slide thành 2 hàng */
+.slick-slide .category__list-item {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* Định dạng cho số cột và hàng trên các điểm breakpoint */
+@media (min-width: 768px) {
+  .slick-slide .category__list-item {
+    width: 33.33%; /* Chia thành 3 cột khi độ rộng màn hình >= 768px */
+  }
+}
+@media (min-width: 992px) {
+  .slick-slide .category__list-item {
+    width: 25%; /* Chia thành 4 cột khi độ rộng màn hình >= 992px */
+  }
 }/*# sourceMappingURL=category.css.map */

@@ -7,7 +7,7 @@
   right: 0;
   bottom: 0;
   background-image: linear-gradient(#ee4d2d, #ff7337);
-  z-index: 999;
+  z-index: 1000;
 }
 .menu a {
   text-decoration: none;
