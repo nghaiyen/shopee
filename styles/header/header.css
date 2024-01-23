@@ -75,15 +75,17 @@
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.09);
 }
 .menu .menu__bottom .menu__bottom-center .search input {
-  height: 95%;
   border: none;
   width: 90%;
 }
 .menu .menu__bottom .menu__bottom-center .search button {
-  width: 9%;
+  width: 12%;
   height: 100%;
   border: none;
   background-image: linear-gradient(#ee4d2d, #ff7337);
+}
+.menu .menu__bottom .menu__bottom-center .search button svg {
+  width: 30%;
 }
 .menu .menu__bottom .cart {
   width: 10%;

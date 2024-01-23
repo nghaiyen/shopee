@@ -140,20 +140,20 @@ let data = [
         "describe": "Giảm đến 50%",
     },
 ];
-const listBrand =document.querySelector(".header__bt-right-slider")
-const renderBrandItem = (params) =>{
-    listBrand.innerHTML = params 
-    .map((item) => {
-        return `
-        <li class="header__bt-right-item d-flex flex-column col-4">
+const listBrand = document.querySelector(".header__bt-right-slider")
+const renderBrandItem = (params) => {
+    listBrand.innerHTML = params
+        .map((item) => {
+            return `
+        <li class="header__bt-right-item d-flex flex-column">
                         <a href="#" class="d-flex flex-column align-items-center">
                             <img src="${item.img}" alt="">
                             <span>${item.describe}</span>
                         </a>
                     </li> 
         `;
-    })
-    .join("");
+        })
+        .join("");
 }
 renderBrandItem(data);
 // 
@@ -168,19 +168,21 @@ $('.header__bt-right-slider').slick({
         {
             breakpoint: 992,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                rows: 1,
             }
         },
         {
             breakpoint: 768,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+                rows: 1,
+                slidesToShow: 4,
+                slidesToScroll: 4,
             }
         },
     ]
-        
+
 }
 );
 

@@ -87,15 +87,17 @@
                 margin: 5px;
                 box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.09);
                 input {
-                    height: 95%;
                     border: none;
                     width: 90%;
                 }
                 button {
-                    width: 9%;
+                    width: 12%;
                     height: 100%;
                     border: none;
                     background-image: linear-gradient(#ee4d2d, #ff7337);
+                    svg{
+                        width: 30%;
+                    }
                 }
             }
         }
