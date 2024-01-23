@@ -178,7 +178,7 @@ $('.header__bt-right-slider').slick({
             settings: {
                 rows: 1,
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
             }
         },
     ]
