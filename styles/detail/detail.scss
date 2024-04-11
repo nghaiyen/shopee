@@ -111,56 +111,126 @@
         .product__img-sub img:hover {
             opacity: 1;
         }
+        .share{
+            svg{
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+            }
+        }
     }
-    .product__right{
+    .product__right {
         width: 57%;
-        img{
+        img {
             width: 2rem;
             height: 1.8rem;
             object-fit: contain;
         }
-    }
-    .name{
-        width: 20%;
-    }
-    .price-saleoff{
-        background-color: #fafafa;
-    }
-    .price{
-        text-decoration: line-through;
-    }
-    .sale-off{
-        color: #fff;
-    background-color: #d0011b;
-    font-weight: 700;
-    font-size: 0.7rem;
-    padding: 0.1rem;
+        .name {
+            width: 20%;
+        }
+        .price-saleoff {
+            background-color: #fafafa;
+        }
+        .price {
+            text-decoration: line-through;
+        }
+        .sale-off {
+            color: #fff;
+            background-color: #d0011b;
+            font-weight: 700;
+            font-size: 0.7rem;
+            padding: 0.1rem;
+        }
+        .btn-color {
+            align-items: center;
+            background: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.09);
+            border-radius: 2px;
+            box-sizing: border-box;
+            color: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            display: inline-flex;
+            justify-content: center;
+            min-height: 2.5rem;
+            min-width: 5rem;
+            outline: 0;
+            overflow: visible;
+            margin: 0px 8px 8px 0;
+            position: relative;
+            text-align: left;
+            word-break: break-word;
+            label {
+                padding: 2px;
+            }
+        }
+        /* Áp dụng một số kiểu chung cho radio và checkbox */
+        .checkbox-color,
+        .radio-color {
+            display: none; /* Ẩn input để tạo kiểu cho label và button */
+        }
+
+        .checkbox-color:checked + .btn-color label,
+        .radio-color:checked + .btn-color label {
+            border: 1px solid #d0011b;
+            padding: 3px;
+            border-radius: 2px;
+        }
+
+        .counter {
+            .bd {
+                align-items: center;
+                background: transparent;
+                border: 0;
+                border: 1px solid rgba(0, 0, 0, 0.09);
+                border-radius: 2px;
+                color: #757575;
+                cursor: pointer;
+                display: flex;
+                font-size: 1rem;
+                font-weight: 300;
+                height: 32px;
+                justify-content: center;
+                letter-spacing: 0;
+                line-height: 1;
+                outline: none;
+                transition: background-color 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+            }
+            > span {
+                width: 64px;
+                border-radius: 0px !important;
+                -webkit-border-radius: 0px !important;
+                -moz-border-radius: 0px !important;
+                -ms-border-radius: 0px !important;
+                -o-border-radius: 0px !important;
+                font-weight: 400 !important;
+            }
+        }
+        .buy {
+            button {
+                background: rgba(255, 87, 34, 0.1);
+                background: rgba(255, 87, 34, 0.1);
+                border: 1px solid #d0011b;
+                box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.03);
+                color: #d0011b;
+                outline: 0;
+                overflow: visible;
+                position: relative;
+                width: 200px;
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+            button:nth-child(2) {
+                color: #fff;
+                background-color: #d0011b;
+            }
+        }
     }
 }
 
-.red__color{
+.red__color {
     color: #d0011b;
 }
-.grey__color{
+.grey__color {
     color: #76787b;
-}
-.btn-color{
-    align-items: center;
-    background: #fff;
-    border: 1px solid rgba(0,0,0,.09);
-    border-radius: 2px;
-    box-sizing: border-box;
-    color: rgba(0,0,0,.8);
-    cursor: pointer;
-    display: inline-flex;
-    justify-content: center;
-    margin: 8px 8px 0 0;
-    min-height: 2.5rem;
-    min-width: 5rem;
-    outline: 0;
-    overflow: visible;
-    padding: 0.3rem;
-    position: relative;
-    text-align: left;
-    word-break: break-word;
 }
